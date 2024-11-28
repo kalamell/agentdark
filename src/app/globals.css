@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@600;800&display=swap');
+
+
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+/*
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+*/
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #d9d9d9;
+  
+}
+
+.filter-984333:hover img {
+  filter: brightness(0) saturate(100%) invert(30%) sepia(38%) saturate(1365%)
+    hue-rotate(328deg) brightness(91%) contrast(84%);
+}
+
+.filter-ffffff:hover img {
+  filter: brightness(0) saturate(100%) invert(93%) sepia(69%) saturate(54%)
+    hue-rotate(266deg) brightness(108%) contrast(106%);
+}
+
+.icon-hover:hover .icon-front {
+  display: none;
+}
+
+.icon-hover .icon-back {
+  display: none;
+}
+
+.icon-hover:hover .icon-back {
+  display: block;
+}
+
+.bg-singha {
+  /*background: url("/bg-1.svg"), #fee042;
+  background-repeat: no-repeat;
+  background-position: right 0 top 63px;
+  background-attachment: fixed;*/
+}
+
+.bg-singha-white {
+  /*background: url("/bg-white.svg"), #ffffff;
+  background-repeat: no-repeat;
+  background-position: right 0 top 0px;
+  background-attachment: fixed;
+  */
+  background-color: #ffffff;
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}
+
+@font-face {
+  font-family: "Athiti-Light";
+  src: url(./assets/fonts/Athiti-Light.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "Athiti-ExtraLight";
+  src: url(./assets/fonts/Athiti-ExtraLight.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "Athiti-Regular";
+  src: url(./assets/fonts/Athiti-Regular.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "Athiti-Medium";
+  src: url(./assets/fonts/Athiti-Medium.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "Athiti-Bold";
+  src: url(./assets/fonts/Athiti-Bold.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "Athiti-SemiBold";
+  src: url(./assets/fonts/Athiti-SemiBold.ttf) format("woff2");
+}
+
+
+@font-face {
+  font-family: "Sarabun-Medium";
+  src: url(./assets/fonts/Sarabun/Sarabun-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sarabun-Bold";
+  src: url(./assets/fonts/Sarabun/Sarabun-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sarabun-SemiBold";
+  src: url(./assets/fonts/Sarabun/Sarabun-SemiBold.ttf) format("truetype");
+
+}
+
+
+select {
+  color: #888291;
+  background-color: white;
+  border: thin solid #D1D5DB;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select:disabled {
+  background-color: #EEEEEE;
+  }
+
+.style-select {
+  font-family: 'Athiti-SemiBold';
+  background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      linear-gradient(to right, #ccc, #ccc);
+  background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      calc(100% - 2.5em) 0.5em;
+  background-size:
+      5px 5px,
+      5px 5px,
+      1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select.style-select:focus {
+  border-color: #D1D5DB;
+  outline: 0;
+}
+
+tspan, .apexcharts-legend-text {
+  font-family: 'Athiti-Medium' !important
+}
+
+.apexcharts-legend-series {
+  column-gap: 5px;
+}
+
+@media print {
+  body {-webkit-print-color-adjust: exact;}
+}
+
+  
+
+
+  
