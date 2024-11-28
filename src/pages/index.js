@@ -326,7 +326,7 @@ export default function Home() {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <rect width="24" height="24" rx="12" fill="#984333" />
+                      <rect width="24" height="24" rx="12" fill="#000000" />
                       <path
                         d="M7.33334 12.6667L10 15.3334L16.6667 8.66669"
                         stroke="white"
@@ -348,7 +348,7 @@ export default function Home() {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <rect width="24" height="24" rx="12" fill="#984333" />
+                      <rect width="24" height="24" rx="12" fill="#000000" />
                       <path
                         d="M7.33334 12.6667L10 15.3334L16.6667 8.66669"
                         stroke="white"
@@ -365,7 +365,7 @@ export default function Home() {
                   <Link href="/agent">
                     <button
                       type="button"
-                      className="font-athitiSemiBold text-[22px] bg-[#984333] text-white hover:bg-[#fee042] hover:text-[#984333] py-[13px] px-[48px] rounded-[50px] leading-[24px] mt-9 max-md:w-full  transition-all duration-300 ease-in-out"
+                      className="font-athitiSemiBold text-[22px] bg-[#000000] text-white hover:bg-[#888888] hover:text-[#000000] py-[13px] px-[48px] rounded-[50px] leading-[24px] mt-9 max-md:w-full  transition-all duration-300 ease-in-out"
                     >
                       สมัครสมาชิก
                     </button>

@@ -59,7 +59,7 @@ export default function Insurance({
   return (
     <>
       <div className="bg-white/80 flex-1 rounded-3xl p-6 max-lg:px-5 shadow-md">
-        <div className="bg-[#984333] hover:bg-[#f1f6f7] filter-984333 rounded-full p-[15px] inline-block">
+        <div className="bg-[#000000] hover:bg-[#555555] filter-000000 rounded-full p-[15px] inline-block">
           <Image src={icon} width={50} height={50} alt="car" priority={true} />
         </div>
 

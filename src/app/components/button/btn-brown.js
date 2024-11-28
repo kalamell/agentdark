@@ -15,7 +15,7 @@ export default function ButtonBrown({
             type="button"
             className={` ${
               isLoading ? "disabled " : ""
-            } whitespace-nowrap font-athitiSemiBold text-[${font}px] bg-[#984333]  text-white hover:bg-[#fee042] hover:text-[#984333] py-[13px] rounded-[50px] leading-[24px] w-full  transition-all duration-300 ease-in-out`}
+            } whitespace-nowrap font-athitiSemiBold text-[${font}px] bg-[#000000]  text-white hover:bg-[#888888] hover:text-[#000000] py-[13px] rounded-[50px] leading-[24px] w-full  transition-all duration-300 ease-in-out`}
           >
             {text}
           </button>
@@ -27,9 +27,9 @@ export default function ButtonBrown({
           type="button"
           className={` ${
             disable
-              ? "disabled:opacity-75 cursor-not-allowed disabled:hover:bg-[#984333] disabled:hover:text-white"
+              ? "disabled:opacity-75 cursor-not-allowed disabled:hover:bg-[#000000] disabled:hover:text-white"
               : ""
-          } whitespace-nowrap font-athitiSemiBold text-[${font}px] bg-[#984333]  text-white hover:bg-[#fee042] hover:text-[#984333] py-[13px]  rounded-[50px] leading-[24px] w-full  transition-all duration-300 ease-in-out`}
+          } whitespace-nowrap font-athitiSemiBold text-[${font}px] bg-[#000000]  text-white hover:bg-[#888888] hover:text-[#000000] py-[13px]  rounded-[50px] leading-[24px] w-full  transition-all duration-300 ease-in-out`}
         >
           {isLoading ? "กรุณารอสักครู่" : `${text}`}
         </button>
